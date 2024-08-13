@@ -52,7 +52,7 @@ DevOpsHomeTask/
 Clone the project repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:Asirush/DevOpsHomeTask.git
 cd DevOpsHomeTask/aws_vpc_ec2_nginx
 ```
 
