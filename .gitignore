@@ -1,0 +1,33 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore crash log files
+crash.log
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore the .terraform directory where modules and provider plugins are stored
+.terraform/
+./aws_vpc_ec2_nginx/.terraform/
+
+# Ignore plan files, which can be created with terraform plan -out=planfile
+*.tfplan
+
+# Ignore .tfvars files containing sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are generally used for local, per-developer settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore other extensions
+*.log
+
+# Ignore local environment settings (for sensitive information)
+.env
